@@ -53,10 +53,10 @@ class OmniTextField extends StatelessWidget {
               borderSide: BorderSide(color: AppColors.grey),
             ),
             focusedBorder: const UnderlineInputBorder(
-              borderSide: BorderSide(color: AppColors.primaryColor),
+              borderSide: BorderSide(color: Colors.transparent),
             ),
             border: const UnderlineInputBorder(
-              borderSide: BorderSide(color: AppColors.darkColor),
+              borderSide: BorderSide(color: AppColors.black),
             ),
             hintText: hintText,
             labelText: labelText,

@@ -60,32 +60,4 @@ class AppInputBorder {
     width: 2,
     color: AppColors.grey,
   );
-
-  static BoxDecoration boxCardSupplyPoints = BoxDecoration(
-    color: AppColors.grey3,
-    borderRadius: const BorderRadius.only(
-      topRight: Radius.circular(30),
-      topLeft: Radius.circular(10),
-      bottomLeft: Radius.circular(10),
-      bottomRight: Radius.circular(10),
-    ),
-  );
-
-  static BoxDecoration boxRadius4 = BoxDecoration(
-    color: AppColors.primaryColor,
-    borderRadius: BorderRadius.circular(4),
-  );
-  static BoxDecoration stockBorder = const BoxDecoration(
-    color: AppColors.primaryColor,
-    borderRadius: BorderRadius.all(
-      Radius.circular(4),
-    ),
-  );
-
-  static BoxDecoration boxButton = const BoxDecoration(
-    color: AppColors.primaryColor,
-    borderRadius: BorderRadius.all(
-      Radius.circular(50),
-    ),
-  );
 }
