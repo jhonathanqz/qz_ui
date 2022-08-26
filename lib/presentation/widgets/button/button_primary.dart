@@ -49,7 +49,7 @@ class ButtonPrimary extends StatelessWidget {
       child: Material(
         borderRadius: BorderRadius.circular(10.0),
         color: isEnabled
-            ? colorButton ?? AppColors.primaryColor
+            ? colorButton ?? Colors.blue
             : const Color.fromARGB(255, 211, 208, 208),
         elevation: elevation ? 5.0 : 0.0,
         child: Padding(

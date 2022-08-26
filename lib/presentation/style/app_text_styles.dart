@@ -172,24 +172,24 @@ class AppTextStyles {
   }
 
   static TextStyle title = const TextStyle(
-    color: AppColors.primaryTextColor,
+    color: AppColors.black,
     fontSize: 18,
     fontWeight: FontWeight.w400,
   );
 
   static TextStyle titleBold = const TextStyle(
-    color: AppColors.primaryTextColor,
+    color: AppColors.black,
     fontSize: 18,
     fontWeight: FontWeight.w700,
   );
 
   static TextStyle heading({bool isMobile = false}) => TextStyle(
-        color: AppColors.primaryTextColor,
+        color: AppColors.black,
         fontSize: isMobile ? 20 : 25,
       );
 
   static TextStyle simple = const TextStyle(
-    color: AppColors.primaryTextColor,
+    color: AppColors.black,
     fontSize: 14,
   );
 
@@ -209,12 +209,12 @@ class AppTextStyles {
   static TextStyle labelStyle = const TextStyle(
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
-    color: AppColors.primaryTextColor,
+    color: AppColors.black,
     fontSize: 16,
   );
 
   static TextStyle headingBold({bool isMobile = false}) => TextStyle(
-        color: AppColors.primaryTextColor,
+        color: AppColors.black,
         fontSize: isMobile ? 20 : 25,
         fontWeight: FontWeight.bold,
       );
@@ -231,7 +231,7 @@ class AppTextStyles {
   );
 
   static TextStyle simpleDarkStyle = const TextStyle(
-    color: AppColors.primaryTextColor,
+    color: AppColors.black,
     fontSize: 14,
   );
 }

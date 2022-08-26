@@ -1,5 +1,10 @@
 library qz_ui;
 
+/* 
+  Criado: 28/08/2022
+  Autor: Jhonathan Queiroz
+  Descrição: Lib com componentes de UI padrão utilizados em projetos
+*/
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
