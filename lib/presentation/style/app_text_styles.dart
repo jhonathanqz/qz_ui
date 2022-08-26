@@ -171,13 +171,13 @@ class AppTextStyles {
     );
   }
 
-  static TextStyle title = TextStyle(
+  static TextStyle title = const TextStyle(
     color: AppColors.primaryTextColor,
     fontSize: 18,
     fontWeight: FontWeight.w400,
   );
 
-  static TextStyle titleBold = TextStyle(
+  static TextStyle titleBold = const TextStyle(
     color: AppColors.primaryTextColor,
     fontSize: 18,
     fontWeight: FontWeight.w700,
@@ -188,25 +188,25 @@ class AppTextStyles {
         fontSize: isMobile ? 20 : 25,
       );
 
-  static TextStyle simple = TextStyle(
+  static TextStyle simple = const TextStyle(
     color: AppColors.primaryTextColor,
     fontSize: 14,
   );
 
-  static TextStyle titleButton = TextStyle(
+  static TextStyle titleButton = const TextStyle(
     color: Colors.black,
     fontSize: 15,
     fontWeight: FontWeight.w600,
     fontFamily: 'Montserrat',
   );
 
-  static TextStyle textSnackInformation = TextStyle(
+  static TextStyle textSnackInformation = const TextStyle(
     color: Colors.white,
     fontSize: 14,
     fontWeight: FontWeight.w600,
   );
 
-  static TextStyle labelStyle = TextStyle(
+  static TextStyle labelStyle = const TextStyle(
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
     color: AppColors.primaryTextColor,
@@ -219,18 +219,18 @@ class AppTextStyles {
         fontWeight: FontWeight.bold,
       );
 
-  static TextStyle simpleStyle = TextStyle(
+  static TextStyle simpleStyle = const TextStyle(
     color: AppColors.white,
     fontSize: 14,
   );
 
-  static TextStyle lighStyleBlack = TextStyle(
+  static TextStyle lighStyleBlack = const TextStyle(
     fontWeight: FontWeight.w300,
     color: AppColors.black,
     fontSize: 14,
   );
 
-  static TextStyle simpleDarkStyle = TextStyle(
+  static TextStyle simpleDarkStyle = const TextStyle(
     color: AppColors.primaryTextColor,
     fontSize: 14,
   );

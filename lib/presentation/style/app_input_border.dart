@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:qz_ui/style/app_colors.dart';
+import 'package:qz_ui/presentation/style/app_colors.dart';
 
 class AppInputBorder {
   static OutlineInputBorder inputBorder = OutlineInputBorder(
@@ -27,8 +27,8 @@ class AppInputBorder {
   );
 
   static BoxDecoration roundedBorder = BoxDecoration(
-    borderRadius: BorderRadius.all(
-      const Radius.circular(20),
+    borderRadius: const BorderRadius.all(
+      Radius.circular(20),
     ),
     border: Border.all(
       color: AppColors.black,
@@ -43,8 +43,8 @@ class AppInputBorder {
     ),
   );
 
-  static BorderRadius borderRadius25 = BorderRadius.all(
-    const Radius.circular(25),
+  static BorderRadius borderRadius25 = const BorderRadius.all(
+    Radius.circular(25),
   );
 
   static BorderRadius borderRadiusAll = BorderRadius.circular(10);
@@ -63,11 +63,11 @@ class AppInputBorder {
 
   static BoxDecoration boxCardSupplyPoints = BoxDecoration(
     color: AppColors.grey3,
-    borderRadius: BorderRadius.only(
-      topRight: const Radius.circular(30),
-      topLeft: const Radius.circular(10),
-      bottomLeft: const Radius.circular(10),
-      bottomRight: const Radius.circular(10),
+    borderRadius: const BorderRadius.only(
+      topRight: Radius.circular(30),
+      topLeft: Radius.circular(10),
+      bottomLeft: Radius.circular(10),
+      bottomRight: Radius.circular(10),
     ),
   );
 
@@ -75,17 +75,17 @@ class AppInputBorder {
     color: AppColors.primaryColor,
     borderRadius: BorderRadius.circular(4),
   );
-  static BoxDecoration stockBorder = BoxDecoration(
+  static BoxDecoration stockBorder = const BoxDecoration(
     color: AppColors.primaryColor,
     borderRadius: BorderRadius.all(
-      const Radius.circular(4),
+      Radius.circular(4),
     ),
   );
 
-  static BoxDecoration boxButton = BoxDecoration(
+  static BoxDecoration boxButton = const BoxDecoration(
     color: AppColors.primaryColor,
     borderRadius: BorderRadius.all(
-      const Radius.circular(50),
+      Radius.circular(50),
     ),
   );
 }

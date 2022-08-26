@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:qz_ui/style/app_colors.dart';
-import 'package:qz_ui/style/app_edge_insets.dart';
-import 'package:qz_ui/style/app_spacing.dart';
-import 'package:qz_ui/style/app_text_styles.dart';
+import 'package:qz_ui/presentation/style/app_colors.dart';
+import 'package:qz_ui/presentation/style/app_edge_insets.dart';
+import 'package:qz_ui/presentation/style/app_spacing.dart';
+import 'package:qz_ui/presentation/style/app_text_styles.dart';
 
 @immutable
 class ButtonPrimary extends StatelessWidget {

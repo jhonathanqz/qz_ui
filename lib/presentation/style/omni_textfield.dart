@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'package:qz_ui/style/app_colors.dart';
+import 'package:qz_ui/presentation/style/app_colors.dart';
 
 class OmniTextField extends StatelessWidget {
   final String? errorText;
