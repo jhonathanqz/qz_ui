@@ -242,7 +242,7 @@ class QzUI {
     Widget? footer,
     Widget? floatingActionButton,
     FloatingActionButtonLocation? floatingActionButtonLocation,
-    required AppBar appBar,
+    AppBar? appBar,
     Color? backgroundColor,
   }) =>
       ScaffoldCustom(
