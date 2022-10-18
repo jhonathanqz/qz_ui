@@ -9,12 +9,12 @@ class ScaffoldCustom extends StatelessWidget {
   final Widget? footer;
   final Widget? floatingActionButton;
   final FloatingActionButtonLocation? floatingActionButtonLocation;
-  final AppBar appBar;
+  final AppBar? appBar;
   final Color? backgroundColor;
 
   const ScaffoldCustom({
     Key? key,
-    required this.appBar,
+    this.appBar,
     required this.child,
     this.isLoading = false,
     this.header,
